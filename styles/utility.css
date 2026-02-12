@@ -7,3 +7,7 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.ff{
+    justify-self: center;
+}
