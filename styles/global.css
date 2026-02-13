@@ -35,20 +35,26 @@
 }
 
 body{
-    background-color: var(--gray-600);
+    background-color: var(--gray-500);
     font: var(--text-md);
+    color: var(--gray-200);
 }
 
 h1,h2,h3{
     font: inherit;
+    color: inherit;
 }
 
-#intro{
-    background: url(../assets/bg/Background_Intro.png) center/cover no-repeat;
+p{
+    color: inherit
 }
 
 .container{
-    padding-inline: 120px;
-    max-width: 1366px;
+    /* max-width: 1366px; */
+    max-width: 1040px;
     margin-inline: auto;
+}
+
+strong{
+    color: var(--red);
 }

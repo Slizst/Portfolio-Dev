@@ -1,7 +1,37 @@
 @import url(global.css);
 
-header{
-    padding-top: 120px;
+#intro{
+    background: url(../assets/bg/Background_Intro.png) center/cover no-repeat;
     height: 750px;
 }
 
+#info{
+    padding: 120px 163px 183px 163px;
+}
+
+header{
+    /* max-width: 680px; */
+    padding: 0px 180px 120px 180px;
+    /* height: 750px; */
+
+    img{
+        width: 112px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    text-align: center;
+
+    h1{
+        color: var(--gray-100);
+    }
+
+    h2{
+        margin-block: 56px 8px;
+    }
+
+    p{
+        color: var(--gray-300);
+        margin-top: 20px;
+    }
+}

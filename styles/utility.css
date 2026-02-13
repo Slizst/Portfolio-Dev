@@ -4,12 +4,25 @@
     display: flex;
 }
 
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
 .flex-wrap{
     flex-wrap: wrap;
 }
 
-.ff{
-    justify-self: center;
+.j-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-120{
+    padding-inline: 120px;
 }
 
 /* Text sizes */
