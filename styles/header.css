@@ -1,17 +1,17 @@
 @import url(global.css);
 
 #intro{
-    background: url(../assets/bg/Background_Intro.png) center/cover no-repeat;
-    height: 750px;
-}
-
-#info{
-    padding: 120px 163px 183px 163px;
+    background: url(../assets/bg/Background_Intro.png) center / cover no-repeat;
+    /* height: 750px; */
 
     #doubledown{
-        margin-bottom: 57px;
-
+        position: relative;
+    
         img{
+            position: absolute;
+            left: 50%;
+            bottom: 57px;
+
             width: 32px;
             aspect-ratio: 1/1;
             object-fit: cover;
@@ -19,9 +19,15 @@
     }
 }
 
+
+#info{
+    padding: 120px 163px 183px 163px;
+}
+
 header{
     /* max-width: 680px; */
     padding: 0px 180px 80px 180px;
+
     /* margin-bottom: 80px; */
     /* height: 750px; */
 
@@ -64,6 +70,6 @@ ul{
         }
     }
 
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
