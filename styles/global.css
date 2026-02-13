@@ -4,7 +4,7 @@
     --red: #E3646E;
     --purple: #BB72E9;
     --blue: #3996DB;
-    --gren: #82BC4F;
+    --green: #82BC4F;
     --yellow: #EABD5F;
 
     --gray-100: #E2E4E9;
@@ -34,13 +34,17 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-color: #0D0E11;
-} */
+body{
+    background-color: var(--gray-600);
+    font: var(--text-md);
+}
 
+h1,h2,h3{
+    font: inherit;
+}
 
 #intro{
-    background: url(../assets/bg/Background_Intro.png) center/100% no-repeat;
+    background: url(../assets/bg/Background_Intro.png) center/cover no-repeat;
 }
 
 .container{
