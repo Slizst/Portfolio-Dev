@@ -21,8 +21,16 @@
     align-items: center;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
 .padding-120{
     padding-inline: 120px;
+}
+
+.gap-8{
+    gap: 8px;
 }
 
 /* Text sizes */

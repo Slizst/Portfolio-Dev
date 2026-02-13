@@ -7,11 +7,22 @@
 
 #info{
     padding: 120px 163px 183px 163px;
+
+    #doubledown{
+        margin-bottom: 57px;
+
+        img{
+            width: 32px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
 }
 
 header{
     /* max-width: 680px; */
-    padding: 0px 180px 120px 180px;
+    padding: 0px 180px 80px 180px;
+    /* margin-bottom: 80px; */
     /* height: 750px; */
 
     img{
@@ -35,3 +46,24 @@ header{
         margin-top: 20px;
     }
 }
+
+ul{
+    list-style: none;
+    /* justify-content: center; */
+    gap: 16px;
+
+    li{
+        padding: 8px 16px;
+        background-color: var(--gray-400);
+        border-radius: 999px;
+
+        img{
+            width: 24px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
+
+    margin-bottom: 94px;
+}
+
