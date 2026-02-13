@@ -1,0 +1,20 @@
+@import url(global.css);
+
+#intro{
+    background: url(../assets/bg/Background_Intro.png) center / cover no-repeat;
+    /* height: 750px; */
+
+    #doubledown{
+        position: relative;
+    
+        img{
+            position: absolute;
+            left: 50%;
+            bottom: 57px;
+
+            width: 32px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
+}
