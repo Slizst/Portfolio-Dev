@@ -6,15 +6,35 @@
 
     #doubledown{
         position: relative;
-    
+
         img{
             position: absolute;
-            left: 50%;
+            left: calc(50% - 16px);
             bottom: 57px;
 
             width: 32px;
             aspect-ratio: 1/1;
             object-fit: cover;
+        }
+    }
+}
+
+#projects{
+    #header{
+        margin-top: 72px;
+    }
+
+    #grid{
+        div.card{
+            padding: 12px 12px 17px;
+            border-radius: 12px;
+            background-color: var(--gray-400);
+
+            img{
+                border-radius: 8px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
     }
 }

@@ -1,5 +1,9 @@
 @import url(global.css);
 
+.container-p{
+    padding-inline: 120px;
+}
+
 .flex{
     display: flex;
 }
@@ -14,6 +18,14 @@
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-columns-3{
+    grid-template-columns: repeat(3,1fr);
 }
 
 .j-center{
@@ -31,6 +43,10 @@
 
 .gap-8{
     gap: 8px;
+}
+
+.gap-24{
+    gap: 24px;
 }
 
 /* Text sizes */
@@ -79,4 +95,28 @@
 
 .yellow{
     color: var(--yellow);
+}
+
+.gray-100{
+    color: var(--gray-100);
+}
+
+.gray-200{
+    color: var(--gray-200);
+}
+
+.gray-300{
+    color: var(--gray-300);
+}
+
+.gray-400{
+    color: var(--gray-400);
+}
+
+.gray-500{
+    color: var(--gray-500);
+}
+
+.gray-600{
+    color: var(--gray-600);
 }
