@@ -33,7 +33,7 @@ header{
     }
 }
 
-ul{
+ul#skills{
     list-style: none;
     /* justify-content: center; */
     gap: 16px;

@@ -25,10 +25,20 @@
     }
 
     #grid{
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: inherit;
+        }
+
         div.card{
             padding: 12px 12px 17px;
             border-radius: 12px;
             background-color: var(--gray-400);
+
+            h2{
+                margin-bottom: 8px;
+            }
 
             img{
                 border-radius: 8px;
