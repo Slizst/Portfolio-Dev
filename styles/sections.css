@@ -20,11 +20,11 @@
 }
 
 #projects{
-    #header{
+    #projects-header{
         margin-top: 72px;
     }
 
-    #grid{
+    #projects-grid{
         a{
             display: inline-block;
             text-decoration: none;
@@ -56,4 +56,22 @@
         }
         margin-bottom: 144px;
     }
+
+}
+
+#services{
+    background-color: var(--gray-600);
+    padding-top: 88px;
+
+    .services-card{
+        padding: 20px;
+        border-radius: 12px;
+        outline: 1px solid var(--gray-500);
+
+        h2{
+            margin-block: 20px 8px;
+        }
+    }
+
+    padding-bottom: 120px;
 }

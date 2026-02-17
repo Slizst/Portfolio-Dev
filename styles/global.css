@@ -61,6 +61,11 @@ p{
     margin-inline: auto;
 }
 
+.container-services{
+    max-width: 888px;
+    margin-inline: auto;
+}
+
 strong{
     color: var(--red);
 }
