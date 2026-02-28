@@ -20,9 +20,7 @@
 }
 
 #projects{
-    #projects-header{
-        margin-top: 72px;
-    }
+    margin-block: 72px 144px;
 
     #projects-grid{
         a{
@@ -54,14 +52,12 @@
                 margin: -5px;
             }
         }
-        margin-bottom: 144px;
     }
-
 }
 
 #services{
     background-color: var(--gray-600);
-    padding-top: 88px;
+    padding-block: 88px 120px;
 
     .services-card{
         padding: 20px;
@@ -72,8 +68,6 @@
             margin-block: 20px 8px;
         }
     }
-
-    padding-bottom: 120px;
 }
 
 aside{
