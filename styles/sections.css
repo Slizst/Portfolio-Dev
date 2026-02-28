@@ -85,12 +85,23 @@ aside{
         margin-top: 48px;
 
         li{
-            background-color: var(--gray-400);
+            /* background-color: var(--gray-400);
             border-radius: 8px;
             padding: 20px;
-            width: 400px;
+            width: 400px; */
+
+            /* box-shadow: 0px 0px 15px 0px var(--blue); */
+
+            /* &:hover{
+                box-shadow: 0px 0px 15px 0px var(--blue);
+            } */
 
             a{
+                background-color: var(--gray-400);
+                border-radius: 8px;
+                padding: 20px;
+                width: 400px;
+
                 span:last-child{
                     margin-left: auto;
                 }
@@ -121,7 +132,26 @@ aside{
                     background-position: center;
                 }
 
+                span#github{
+                    background-image: url(../assets/icons/GithubLogo.svg);
+                    background-repeat: no-repeat;
+                    width: 28px;
+                    height: 28px;
+                    background-position: center;
+                }
+
+                span#email{
+                    background-image: url(../assets/icons/EnvelopeSimple.svg);
+                    background-repeat: no-repeat;
+                    width: 28px;
+                    height: 28px;
+                    background-position: center;
+                }
+
                 &:hover{
+                    box-shadow: 0px 0px 15px 0px var(--blue);
+                    margin: -1px;
+
                     span.arrow{
                         background-image: url(../assets/icons/Hover/HoverArrowUpRight.svg);
                     }
@@ -137,9 +167,16 @@ aside{
                     span#instagram{
                         background-image: url(../assets/icons/Hover/HoverInstagramLogo.svg);
                     }
+
+                    span#github{
+                        background-image: url(../assets/icons/Hover/HoverGithubLogo.svg);
+                    }
+
+                    span#email{
+                        background-image: url(../assets/icons/Hover/HoverEnvelopeSimple.svg);
+                    }
                 }
             }
-
         }
     }
 }
